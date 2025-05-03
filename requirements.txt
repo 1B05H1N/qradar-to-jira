@@ -1,0 +1,23 @@
+# Core Dependencies
+requests>=2.31.0  # HTTP client for API calls
+python-dotenv>=1.0.0  # Environment variable management
+urllib3>=2.0.0  # HTTP client with SSL support
+certifi>=2023.7.22  # Mozilla's CA Bundle
+charset-normalizer>=3.3.0  # Character encoding detection
+idna>=3.4  # Internationalized Domain Names support
+
+# Development Dependencies
+pytest>=7.4.0  # Testing framework
+pytest-cov>=4.1.0  # Test coverage reporting
+black>=23.7.0  # Code formatting
+flake8>=6.1.0  # Code linting
+mypy>=1.5.1  # Static type checking
+types-requests>=2.31.0.1  # Type stubs for requests
+
+# Optional Dependencies
+# Uncomment if needed:
+# python-dateutil>=2.8.2  # Date parsing and manipulation
+# pytz>=2023.3  # Timezone support
+# tzlocal>=5.2  # Local timezone support
+# pyOpenSSL>=23.2.0  # Additional SSL support
+# cryptography>=41.0.0  # Cryptographic operations 

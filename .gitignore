@@ -172,3 +172,49 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore all files in the data directory
+data/*
+
+# Ignore all files in the logs directory
+logs/*
+
+# Additional ignores
+
+# Environment variables
+*.env
+.env.*
+
+# Logs
+logs/
+qradar_to_jira.log
+
+# Checkpoints
+.checkpoint
+*.checkpoint
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Security
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+*.der
+*.p7b
+*.p7c
+*.p7m
+*.p7s
+*.p8
+*.p10
+*.cer
