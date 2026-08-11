@@ -4,7 +4,7 @@ A robust, one-way integration that pulls offenses from IBM QRadar and creates is
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ```bash
 git clone https://github.com/1B05H1N/qradar-to-jira.git
@@ -77,7 +77,7 @@ Follow Atlassian's official documentation: [Manage API tokens for your Atlassian
 
 ---
 
-## ⚠️ DISCLAIMER
+## DISCLAIMER
 
 ### IMPORTANT: USE AT YOUR OWN RISK
 
