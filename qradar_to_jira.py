@@ -494,6 +494,11 @@ def main():
             except Exception as e:
                 logger.error(f"Error testing SSL configuration: {str(e)}")
                 raise
+        elif SSL_VERIFY:
+            # No custom CA bundle provided: verify against the system trust store
+            # instead of silently disabling verification.
+            session.verify = True
+            logger.info("Using system CA trust store for SSL verification")
         else:
             session.verify = False
             urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
