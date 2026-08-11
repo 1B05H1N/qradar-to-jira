@@ -211,6 +211,7 @@ def make_request_with_retry(session, method, url, auth=None, headers=None, **kwa
                 url, 
                 auth=auth,
                 headers=headers,
+                timeout=kwargs.pop("timeout", 60),
                 **kwargs
             )
             response.raise_for_status()
